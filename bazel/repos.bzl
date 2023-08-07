@@ -19,10 +19,10 @@ def swiftlint_repos():
 
     http_archive(
         name = "com_github_apple_swift_syntax",
-        sha256 = "d463bd0c87bf42cc66c17430a4a58ec0e4b685a6033a532e49bbc9e9dd0b1daf", # SwiftSyntax sha256
+        sha256 = "f44519108cdc3f24559b5451c2d1e6f399e59f7340e0aeded92a6e250c8461c1", # SwiftSyntax sha256
         build_file = "@SwiftLint//bazel:SwiftSyntax.BUILD",
-        strip_prefix = "swift-syntax-e8da93046936e02ef3d700527ecdcd808c3c6bcd",
-        url = "https://github.com/apple/swift-syntax/archive/e8da93046936e02ef3d700527ecdcd808c3c6bcd.tar.gz",
+        strip_prefix = "swift-syntax-e340af46cd6725e1567c42adcbb1ec979bf7f7b4",
+        url = "https://github.com/apple/swift-syntax/archive/e340af46cd6725e1567c42adcbb1ec979bf7f7b4.tar.gz",
     )
 
     http_archive(
